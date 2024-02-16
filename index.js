@@ -9,6 +9,6 @@ const multiplicacion = (num) => {
       console.log(i, "x", num, "=", multi);
       console.log("el factorial de ", i, "es:", factorial);
     }
-  }
+  } else console.log("número fuera del rango");
 };
-multiplicacion(3);
+multiplicacion(22);
